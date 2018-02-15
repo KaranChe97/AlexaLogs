@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
-import { Container, Header, Content, Tab, Tabs } from 'native-base';
-import Response from './src/Components/response';
+import { Container, Header, Tab, Tabs } from 'native-base';
 import Request from './src/Components/request';
 
-
-export default class HelloWorldApp extends Component {
+export default class Home extends Component {
   render() {
     return (
       <Container>
